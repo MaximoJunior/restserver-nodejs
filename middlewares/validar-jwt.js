@@ -32,6 +32,8 @@ const validarJWT = async(req, res, next) => {
             msg: "Token no valido - usuario status: false"
         })
        }
+
+       // Add to object request
        req.user = user;
 
         next();
