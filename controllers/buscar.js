@@ -104,10 +104,6 @@ const buscar = (req, res) => {
                  msg: 'Se me olvido hacer esta ruta'
              })
     }
-
-//    res.json({
-//        coleccion, termino
-//    })
 }
 
 
